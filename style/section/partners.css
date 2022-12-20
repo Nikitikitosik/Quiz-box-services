@@ -1,0 +1,39 @@
+.partners {
+   margin-top: 176px;
+
+}
+
+.partners__tittle {
+
+   font-weight: 700;
+   font-size: 48px;
+   color: #1A1B1E;
+}
+
+.partners__content {
+   margin-top: 18px;
+}
+
+.partners__list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-right: 25px;
+}
+
+.partners__item {
+   margin-top: 55px;
+   display: flex;
+   width: 250px;
+   align-items: center;
+   justify-content: center;
+}
+
+.partners__link {
+   filter: grayscale(100%);
+   transition: 0.4s;
+}
+
+.partners__link:hover {
+   filter: grayscale(0);
+}

@@ -1,0 +1,18 @@
+.header {
+   padding-top: 34px;
+}
+
+.header__content {
+   display: flex;
+   justify-content: space-between;
+}
+
+.header__title {
+   margin-top: 95px;
+}
+
+.header__title {
+   font-weight: 700;
+   font-size: 72px;
+}
+

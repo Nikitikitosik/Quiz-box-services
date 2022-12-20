@@ -1,0 +1,69 @@
+.past {
+	padding-top: 127px;
+	/* position: relative; */
+}
+
+/* .past::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 500px;
+	left: 0;
+	background: url(../../img/fone-footer.png) no-repeat;
+	filter: grayscale(100%);
+	width: 1920px;
+	height: 1018px;
+} */
+
+.past__list {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 46px;
+}
+
+.past__title {
+	display: flex;
+	font-weight: 700;
+	font-size: 36px;
+	color: #fff;
+}
+
+.past__item {
+	padding: 255px 72px 23px 29px;
+	width: 557px;
+	height: 394px;
+}
+
+.past__item--new-year {
+	background-image: url(../../img/1\ yanvarya.png);
+	background-size: cover;
+
+}
+
+.past__item--spring {
+	background-image: url(../../img/8\ marta.jpg);
+	background-size: cover;
+}
+
+.past__date {
+	font-size: 14px;
+	color: #fff;
+}
+
+.past__item-title {
+	margin-top: 13px;
+	font-weight: 700;
+	font-size: 24px;
+	color: #fff;
+}
+
+
+.past__text {
+	margin-top: 5px;
+	width: 477px;
+	height: 61px;
+	line-height: 21px;
+	color: #fff;
+	padding-top: 1px;
+}

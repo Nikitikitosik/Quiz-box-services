@@ -1,0 +1,53 @@
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	background: #17191C;
+	position: relative;
+	background-repeat: no-repeat;
+}
+
+.wrapper__content {
+	position: relative;
+}
+
+.wrapper__content::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -170px;
+	background: url(../../img/fone-header.png) no-repeat;
+	filter: grayscale(100%);
+	width: 1920px;
+	height: 999px;
+}
+
+.wrapper__content::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	bottom: 148px;
+	left: -169px;
+	background: url(../../img/fone-footer.png) no-repeat;
+	filter: grayscale(100%);
+	width: 1920px;
+	height: 1018px;
+}
+
+/* .wrapper--services {
+	background-image: url(../../img/wrapper_services.png);
+	background-repeat: no-repeat;
+} */
+
+.wrapper--services::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: -169px;
+	background: url(../../img/wrapper_services.png) no-repeat;
+	filter: grayscale(100%);
+	width: 1920px;
+	height: 1018px;
+}

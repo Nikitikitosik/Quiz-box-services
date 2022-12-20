@@ -1,0 +1,86 @@
+.novelties {
+	margin-top: 193px;
+}
+
+.novelties__title {
+	position: relative;
+	display: inline-block;
+	font-weight: 700;
+	font-size: 36px;
+}
+
+.novelties__title::after {
+	position: absolute;
+	right: -51px;
+	content: "";
+	width: 42px;
+	height: 42px;
+	background-image: url(../../img/Vector.png)
+}
+
+.novelties__list {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 51px;
+}
+
+.novelties__item-photo {
+	width: 362px;
+	height: 144px;
+}
+
+.novelties__info {
+	margin-left: -3px;
+	background-color: #fff;
+	border-radius: 0px 0px 5px 5px;
+	width: 362px;
+	height: 305px;
+	padding: 31px 40px 26px 23px;
+}
+
+.novelties__info-list {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 21px;
+}
+
+.novelties__info-item {
+	display: flex;
+	align-items: center;
+}
+
+.novelties__info-text {
+	margin-left: 10px;
+	color: #000;
+
+}
+
+.novelties__info-description {
+	width: 324px;
+	height: 63px;
+	font-size: 14px;
+	line-height: 21px;
+	color: #000;
+	margin-top: 23px;
+}
+
+.novelties__info-title {
+	font-weight: 700;
+	font-size: 24px;
+	color: #000;
+}
+
+
+.novelties__button {
+	padding: 18px 27px;
+	margin-top: 24px;
+	border: 1px solid #8F00FF;
+	border-radius: 5px;
+	background-color: #fff;
+	color:#8F00FF;
+}
+
+.novelties__button:hover {
+	color: #fff;
+}
+

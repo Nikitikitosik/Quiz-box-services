@@ -1,0 +1,22 @@
+.breadcrumbs__menu {
+   margin-top: 102px;
+}
+
+.breadcrumbs__list {
+   display: flex;
+}
+
+.breadcrumbs__item {
+   margin-right: 4px;
+   font-size: 14px;
+   color: #9A9A9A;
+   text-decoration-line: underline;
+}
+
+.breadcrumbs__item-non {
+   text-decoration-line: none ;
+}
+
+.breadcrumbs__item-active{
+   font-weight: 700;
+}

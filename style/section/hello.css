@@ -1,0 +1,28 @@
+.hello {
+	padding-top: 136px;
+}
+
+.hello__content {
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+}
+
+.hello__title {
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 64px;
+	max-width: 57%;
+}
+
+.hello__description {
+	padding-top: 21px;
+	font-size: 21px;
+	line-height: 29px;
+}
+
+.hello__button {
+	margin-top: 76px;
+}
+
+

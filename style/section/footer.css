@@ -1,0 +1,38 @@
+.footer {
+   padding-top: 42px;
+   padding-bottom: 57px;
+}
+
+.footer__content {
+   display: flex;
+   justify-content: space-between;
+   /* align-items: center; */
+}
+
+.footer__logo {
+   margin-top: 10px;
+}
+
+.footer__navigation {
+   margin-left: 50px;
+   margin-top: 10px;
+}
+
+.footer__contacts {
+   margin-top: 4px;
+}
+
+.footer__contacts-description {
+   font-size: 11px;
+   color: #9A9A9A;
+}
+
+.footer--services {
+   margin-top: 113px;
+   background-color: black;
+}
+
+.footer__content--services {
+   margin-top: 10px;
+}
+

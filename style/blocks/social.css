@@ -1,0 +1,28 @@
+.social {
+   margin-left: 40px;
+}
+
+
+.social__list {
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.social__item:not(:first-child) {
+   margin-left: 10px;
+}
+
+.social__icon {
+   width: 36px;
+   height: 36px;
+}
+
+.social__link {
+   filter: brightness(0.5);
+   transition: 0.4s;
+}
+
+.social__link:hover {
+   filter: brightness(1);
+}
